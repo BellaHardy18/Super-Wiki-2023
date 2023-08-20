@@ -1,0 +1,99 @@
+.holdgrid {
+  padding-top: 4em;
+  display: grid;
+  padding-left: 3em;
+  padding-right: 3em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-row-gap: 5em;
+  grid-column-gap: 5em;
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Optionally, you can add this to center items vertically */
+.holdgrid > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homebutton:hover {
+  height: 60px;
+  width: 200px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  border-radius: 30px;
+  border-width: medium;
+  border-style: solid;
+  background-color: white;
+  border-color: white;
+  color: black;
+  transition: 0.7s;
+  font-family: sans-serif;
+}
+
+.homebutton {
+  height: 60px;
+  width: 200px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  border-radius: 30px;
+  border-width: medium;
+  border-style: solid;
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
+.photos {
+  max-width: 200px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+}
+
+.charname {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.searchdesign {
+  font-size: 25px;
+  align-content: center;
+  height: 50px;
+  width: 500px;
+  border-radius: 20px;
+  border: 5px solid;
+  border-color: white;
+  padding: 10px;
+}
+
+.load {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.pagetitle {
+  text-shadow: 5px 5px 25px white;
+  font-size: 96px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  justify-content: center;
+  padding-top: 50px;
+}

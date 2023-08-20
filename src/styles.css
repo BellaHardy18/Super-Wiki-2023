@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.char-name {
+  font-family: sans-serif;
+  color: white;
+  font-size: 96px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 5px 5px 25px white;
+}
+
+.toppage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.master-cont {
+  display: flex;
+  justify-content: center;
+  column-gap: 5em;
+  text-align: left;
+}
+
+.imgs {
+  border-radius: 40px;
+  height: 100%;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+}
+
+.score {
+  font-family: sans-serif;
+  color: white;
+  border-radius: 10px;
+  font-size: 40px;
+  margin-top: 1px;
+}
+
+.stats {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.bio {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.appear {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.rightside {
+  padding-right: 100px;
+}
